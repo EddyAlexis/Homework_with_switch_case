@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#808080;
+}
+
+#text{
+    text-align: center;
+    color:red ;
+}
+
+fieldset{
+    border: 1px solid gray;
+    padding: 20px 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+legend{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.formulaire{
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5px;
+    box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2);
+}
+
+.formulaire {
+    color: red;
+}
+
+.formulaire input, .formulaire select{
+    display: block;
+    padding: 10px 10px ;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.formulaire button{
+    display: block;
+    padding: 8px 25px;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    cursor:pointer ;
+
+}
